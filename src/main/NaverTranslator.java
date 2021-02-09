@@ -15,7 +15,7 @@ public class NaverTranslator {
 
     public static void main(String[] args) {
         String clientId = "sT2Au7CvVgKBdZso5Rcb";//애플리케이션 클라이언트 아이디값";
-        String clientSecret = "vTiC5WDNI5";//애플리케이션 클라이언트 시크릿값";
+        String clientSecret = "vTiC5WDNI5";//애플리케이션 클라이언트 시크릿값"; (참고로 키는 재발급 받아서 이거 써도 안됨)
         try {
             String text = URLEncoder.encode("안녕하세요. 오늘 기분은 어떻습니까?", "UTF-8");
             String apiURL = "https://openapi.naver.com/v1/papago/n2mt";
